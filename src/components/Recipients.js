@@ -43,7 +43,7 @@ const Recipients = () => {
   }
 
   return (
-    <div className='flex flex-col items-center justify-center py-3 px-4 text-white'>
+    <div className='flex flex-col items-center justify-center py-4 px-1 text-white'>
       <input onChange={(e) => setRecipientAddress(e.target.value)}
         value={recipientAddress} className="w-3/4 p-3 bg-black border-2
        border-blue-900 border-opacity-60 bg-opacity-70 outline-none rounded-lg"
